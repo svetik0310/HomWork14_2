@@ -23,7 +23,7 @@ public class FirstTest {
 
     @Test
     void fillAutomationPracticeForm() {
-        DataForFirstTest testPerson= new DataForFirstTest("Ivanov","Ivan","iviv@mail.ru","Male","7890890898","12.12.1980","Reading","test.jpg","Canal Street","NCR","Noida");
+        DataForFirstTest testPerson= new DataForFirstTest("Ivanov","Ivan","iviv1@mail.ru","Male","7890890898","12.12.1980","Reading","test.jpg","Canal Street","NCR","Noida");
         open("/automation-practice-form");
         setDataToForm(testPerson);
         clickSubmitButton();
